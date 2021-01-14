@@ -317,7 +317,7 @@ const gBase64 = {
 
 //轉碼
 function email() {
-var dk = Base64.decode('JiMxMDA7JiMxMTE7JiMxMTc7JiMxMDc7JiM5NzsmIzExMDsmIzM2Ow==');
+var dk = Base64.decode('JiMxMDA7JiMxMTE7JiMxMTc7JiMxMDc7JiM5NzsmIzExMDsmIzM1Ow==');
 var hou = Base64.decode('JiMxMTY7JiMxMTc7JiMxMTY7JiM5NzsmIzEwOTsmIzk3OyYjMTA1OyYjMTA4OyYjNDY7JiM5OTsmIzExMTsmIzEwOTs=');
 document.write(unescape(dk.replace(/\\u/g, '%u')) + '<!-- 注釋-->' + unescape(hou.replace(/\\u/g, '%u')));
 
